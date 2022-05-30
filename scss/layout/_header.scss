@@ -1,0 +1,55 @@
+header{
+  background-image: url("./../../image/yellow_top_wave_01.png"); 
+  background-position: bottom;
+  background-size: cover;
+  padding: 6rem 0;
+    .navbar{
+       
+        background-color: transparent;
+        position: relative;
+        bottom:96px;
+    }
+    .navbar ul li{
+        margin-left: 50px;
+    }
+    .navbar ul li button{
+         background-color: $color-purple-1;
+         border-radius: 50px;
+         
+    }
+    .navbar .nav-item a{
+        font-weight: 600;
+        color: black;
+    }
+    .navbar .nav-item::after{
+        content: "";
+        background-color: $color-purple-1;
+        height: 12px;
+        width: 12px;
+        border-radius: 100%;
+        transform: scaleX(0);
+        margin: auto;
+        display: block;
+    }
+    .navbar .nav-item ul li:hover {
+        transform: scaleX(1);
+        transition: all 0.6s;
+    }
+    
+    .navbar .nav-item .nav-link:hover {
+        color: $color-purple-1;
+    }
+    .navbar .nav-item:hover .chamtim{
+        display: block;
+    }
+    .navbar ul li button:hover{
+        background-color: white;
+    }
+    .navbar ul li button:hover .text{
+        color: $color-purple-1;
+    }
+    .navbar ul li button .text{
+        margin: 5px 7px;
+        color: white;
+    }
+}

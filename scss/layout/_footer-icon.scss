@@ -1,0 +1,42 @@
+.footer-icon{
+    padding: 200px 0;
+    background-image: url(/image/footer_background.jpg);
+    background-position: center;
+    background-size: cover;
+    .container{
+        .row{
+            .col-3{
+                .row{
+                    .col-12{
+                        .item{
+                            text-align: left;
+                            margin-bottom:10px;
+                            i{
+                                display: inline;
+                                color: white;
+                                
+                            }
+                            p{
+                                display: inline;
+                                color: white;
+                            }
+                            hr{
+                                text-align: left;
+                                width: 100%;
+                            }
+                            h3{
+                                color: white;
+                            }
+                            .row{
+                                a{
+                                    color: white;
+                                    margin-left:5px ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

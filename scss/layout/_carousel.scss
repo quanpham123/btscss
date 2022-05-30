@@ -1,0 +1,20 @@
+.carousel{
+    background-image: url("../../image/Violet_top_left_wave.png");
+    background-size: cover;
+    background-position: center;
+    margin: 3rem 0;
+   .text{
+       .text-1{
+           p{  
+               color: $color-purple-1;
+               font-size: 40px;
+           }
+       }
+       .text-2{
+           h2{
+            font-size: 60px;
+            font-weight: 900;
+           }
+       }
+   }
+}
